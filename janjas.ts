@@ -116,7 +116,7 @@ function compare(playerHand:{rank:string , value:string}[],dealerHand:{rank:stri
 function summary(hand: {rank:string , value:string}[]):string {                     // all thing in the world ends here
         const score = calculate4Pok(hand)
         const pok = pokMai2(score) ? `pok with ${score}!! ` : `${score} points`;
-        const triple = tripleMai(hand) ? `u got triple!! with ${hand}` : "";
+        const triple = tripleMai(hand) ? `u got triple!! with ${hand.map(c => c.value).join(", ")}` : "";
         const double = doubleOrTriple(hand);
         const strainght = hand.length === 3 ? strainghtMessage(hand) : "";
 
