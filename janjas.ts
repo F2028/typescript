@@ -1,3 +1,5 @@
+// GAME POK DENG
+
 //impure cuz random
 function Cards() {
     const Ranks: string[] = ["Hearts", "Diamonds", "Clubs", "Spades"];
