@@ -126,7 +126,7 @@ function summary(hand: {rank:string , value:string}[]):string {                 
 }
 
 
-function playDaGame():string{                       // the fun begins
+function playDaGames():string{                       // the fun begins
         const playerHand = play();
         const dealerHand = play()
 
