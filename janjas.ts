@@ -1,4 +1,4 @@
-// GAME POK DENG
+// GAME POK DENG DENG
 
 //impure cuz random
 function Cards() {
